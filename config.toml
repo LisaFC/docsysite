@@ -83,6 +83,18 @@ github_repo = "https://github.com/google/docsy-example"
 # Google Custom Search Engine ID. Remove or comment out to disable search.
 # gcs_engine_id = "011737558837375720776:fsdu1nryfng"
 
+[[params.versions]]
+  version = "master"
+  url = "https://master.kubeflow.org"
+
+[[params.versions]]
+  version = "v0.2"
+  url = "https://v0-2.kubeflow.org"
+
+[[params.versions]]
+  version = "v0.3"
+  url = "https://v0-3.kubeflow.org"
+
 # User interface configuration
 [params.ui]
 # Enable to show the side bar menu in its compact state.
@@ -101,19 +113,6 @@ enable = true
 # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
 yes = 'Glad to hear it! Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
 no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
-
-[[params.versions]]
-  version = "master"
-  url = "https://master.kubeflow.org"
-
-[[params.versions]]
-  version = "v0.2"
-  url = "https://v0-2.kubeflow.org"
-
-[[params.versions]]
-  version = "v0.3"
-  url = "https://v0-3.kubeflow.org"
-
 
 [params.links]
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.

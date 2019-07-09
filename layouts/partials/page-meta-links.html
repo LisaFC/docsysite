@@ -12,7 +12,7 @@
 {{ $editURL = printf "%s/edit/master/content/%s/%s" $gh_repo ($.Site.Language.Lang) .Path }}
 {{ end }}
 {{ if $gh_subdir }}
-{{ $editURL = printf "%s/edit/master/%s/content/%s" $gh_repo $gh_subdir $.Path }}
+{{ $editURL = printf "%s/edit/master/doodah/%s/content/%s" $gh_repo $gh_subdir $.Path }}
 {{ end }}
 {{ $issuesURL := printf "%s/issues/new?title=%s" $gh_repo (htmlEscape $.Title )}}
 <a href="{{ $editURL }}" target="_blank"><i class="fa fa-edit fa-fw"></i> {{ T "post_edit_this" }}</a>

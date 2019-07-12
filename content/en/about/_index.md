@@ -14,17 +14,13 @@ Docsy is a pre-configured Hugo theme that provides the core features and behavio
 Read on to find out more, or visit our [documentation](/docs/) to get started!
 {{% /blocks/cover %}}
 {{% blocks/section color="white" %}}
-<section class="row td-box td-box--4 td-box--gradient td-box--height-auto linkbox">
-<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-There's a growing number of sites using Docsy, including...
-  
-You can see or add to the list on our Examples page.
-</div>
-<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-image
-</div>
-</section>
+## Who's using Docsy?
 
+There's a growing number of technical documentation sites using Docsy, including Kubeflow, Agones, Knative, and our example project site (and this one, of course!). You can see or add to the list on our Examples page.
+
+{{< imgproc docsy Fill "400x450" >}}
+Docsy sites.
+{{< /imgproc >}}
 {{% /blocks/section %}}
 
 {{% blocks/section type="section" color="primary" %}}

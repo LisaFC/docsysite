@@ -13,6 +13,16 @@ Docsy is a pre-configured Hugo theme that provides the core features and behavio
 
 Read on to find out more, or visit our [documentation](/docs/) to get started!
 {{% /blocks/cover %}}
+{{% blocks/section type="section" color="white" %}}
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+some stuff
+
+</div>
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+stuff
+
+</div>
+{{% /blocks/section %}}
 
 {{% blocks/section type="section" color="primary" %}}
 ## So what’s a technical documentation site?

@@ -13,21 +13,15 @@ Docsy is a pre-configured Hugo theme that provides the core features and behavio
 
 Read on to find out more, or visit our [documentation](/docs/) to get started!
 {{% /blocks/cover %}}
-{{% blocks/section color="white" %}}
+{{% blocks/section type="features" color="white" %}}
 {{% blocks/feature %}}
 There's a growing number of projects using Docsy for their doc sites, including Kubeflow, Agones, and Knative, as well as our own [example site](https://example.docsy.dev) (and this one!).
 
 You can find or add to the list on our [Examples page](/docs/examples/)
 {{% /blocks/feature %}}
 
-
 {{% blocks/feature %}}
 image goes here
-{{% /blocks/feature %}}
-
-
-{{% blocks/feature icon="fab fa-twitter" title="Follow us on Twitter!" url="https://twitter.com/docsydocs" %}}
-Find out about new features and how our users are using Docsy.
 {{% /blocks/feature %}}
 {{% /blocks/section %}}
 
